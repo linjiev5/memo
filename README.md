@@ -8,7 +8,7 @@ clibor 剪贴板
 alt+enter 打开属性窗口
 
 
-###click
+### click
 ```batch
 <html>
     <head>
