@@ -27,3 +27,10 @@ alt+enter 打开属性窗口
     </body>
 </html>
 ```
+
+
+### SFDCパスワードリセットするソース
+```batch
+User u = [SELECT id from User WHERE id = 'xxxx'];
+System.setPassword(u.Id, 'pswd');
+```
